@@ -12,6 +12,7 @@ function MainNav() {
           <p className="subtitle-two">Welcome to my development portfolio.</p>
         </header>
       </div>
+      <hr />
       <nav className="nav">about | projects | contact | this | that </nav>
     </div>
   );
