@@ -16,8 +16,8 @@ function About() {
       <br />
       <br />
       After years of programming as a hobbyist, followed by taking college
-      courses in software development, I am now a recent graduate of <a href="http://thinkful.com">Thinkful</a>'s fullstack engineering program. I'm now more ready than ever to pair my years of
-      experience in logistics along with my new skills as a an engineer in 
+      courses in software development, I am now a recent graduate of <a href="http://thinkful.com">Thinkful's</a> fullstack engineering program. I'm now more ready than ever to pair my years of
+      experience in logistics along with my new skills in fullstack engineering to find my start in a new career!
       {/* I also have the drive and dedication to build your project to your highest
       expectations. */}
     </p>

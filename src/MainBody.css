@@ -4,12 +4,16 @@
     font-weight: 600;
 }
 
+a{
+    text-decoration: none;
+}
+
 a:link{
-    color:rgb(49, 59, 68);
+    color:rgb(62, 79, 94);
 }
 
 a:visited{
-    color:rgb(17, 36, 53);
+    color:rgb(61, 84, 104);
 }
 
 a:hover{
