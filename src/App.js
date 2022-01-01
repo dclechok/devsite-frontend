@@ -1,9 +1,10 @@
 import './App.css';
+import MainNav from './MainNav';
 
 function App() {
   return (
     <div className="App">
-      <p>My name is Daniel C. Lechok. This is my development portfolio.</p>
+      <MainNav />
     </div>
   );
 }
