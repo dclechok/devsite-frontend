@@ -1,33 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap");
 
-.title-container{
-    margin-top: 1%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
+.title-container {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
-nav{
-    font-weight: 300;
-    font-size: 24px;
-    /* background-color: aliceblue; */
+nav {
+  font-weight: 600;
+  font-size: 20px;
+  /* background-color: aliceblue; */
 }
 
-h1{
-    font-size: 120px; 
-    margin-bottom: 0;
-    font-family: 'EB Garamond', serif;
-    font-weight: 200;
+h1 {
+  font-size: 120px;
+  margin-bottom: 0;
+  font-family: "EB Garamond", serif;
+  font-weight: 200;
 }
 
-.subtitle-one{
-    font-size: 25px;
-    letter-spacing: 7px;
-    font-family: 'Tangerine', cursive;
+.subtitle-one {
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-style: italic;
+  /* font-family: 'Tangerine', cursive; */
+  font-family: "Montserrat", sans-serif;
 }
 
-.subtitle-two{
-    font-size: 18px;
+.subtitle-two {
+  font-size: 18px;
 }
