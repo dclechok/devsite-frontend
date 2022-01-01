@@ -16,9 +16,9 @@ function About() {
       courses in software development, and most-recently becoming a graduate of
       the Thinkful coding bootcamp I'm more than ready to pair my years of
       experience in logistics along with my new skills in full stack
-      engineering, and find a new career in full stack development. I also have
-      the drive and dedication to build your project to your highest
-      expectations.
+      engineering to find a new career in software development. 
+      {/* I also have the drive and dedication to build your project to your highest
+      expectations. */}
     </p>
   );
 }
