@@ -1,17 +1,18 @@
-import './MainNav.css';
+import "./MainNav.css";
 
-function MainNav(){
-
-    return (
-        <div className="title-container">
-            {/* Title (left) Nav (Right) */}
-            <h1>Daniel C. Lechok <span className="subtitle">Welcome to my development portfolio.</span></h1>
-            <div className="nav">
-                about | projects | contact
-            </div>
-
-        </div>
-    );
+function MainNav() {
+  return (
+    <div className="title-container">
+      <header>
+        <h1>Daniel C. Lechok</h1>
+        <br />
+        <span className="subtitle-one">Full Stack Engineer</span>
+        <br />
+        <p className="subtitle-two">Welcome to my development portfolio.</p>
+      </header>
+      <nav className="nav">about | projects | contact | this | that </nav>
+    </div>
+  );
 }
 
 export default MainNav;
