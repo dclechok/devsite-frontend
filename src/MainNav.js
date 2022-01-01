@@ -7,13 +7,14 @@ function MainNav() {
         <header>
           <h1>Daniel C. Lechok</h1>
           <br />
-          <span className="subtitle-one">Full Stack Engineer</span>
+          <span className="subtitle-one">Full Stack Developer</span>
           <br />
-          <p className="subtitle-two">Welcome to my development portfolio.</p>
         </header>
       </div>
       <hr />
-      <nav className="nav">about | projects | contact | this | that </nav>
+      <nav className="nav">about | projects | contact  </nav>
+      <br />
+      <p className="subtitle-two">Welcome to my development portfolio...</p>
     </div>
   );
 }

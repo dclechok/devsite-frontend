@@ -3,3 +3,19 @@
     text-align: left;
     font-weight: 600;
 }
+
+a:link{
+    color:rgb(49, 59, 68);
+}
+
+a:visited{
+    color:rgb(17, 36, 53);
+}
+
+a:hover{
+    color: aliceblue;
+}
+
+a:active{
+    color:rgb(176, 183, 189);
+}

@@ -1,7 +1,10 @@
+import React from 'react';
+import { BrowserRouter as Router, Link } from "react-router-dom";
+
 function About() {
   return (
     <p>
-      Hi. My name is Daniel C. Lechok, and I'm from Pittsburgh, Pennsylvania.
+      My name is Daniel C. Lechok, and I'm from Pittsburgh, Pennsylvania.
       After working in logistics for many years, I decided to finally take the
       leap into full-stack engineering and follow my dream of becoming a
       full-time software developer.
@@ -13,10 +16,8 @@ function About() {
       <br />
       <br />
       After years of programming as a hobbyist, followed by taking college
-      courses in software development, and most-recently becoming a graduate of
-      the Thinkful coding bootcamp I'm more than ready to pair my years of
-      experience in logistics along with my new skills in full stack
-      engineering to find a new career in software development. 
+      courses in software development, I am now a recent graduate of <a href="http://thinkful.com">Thinkful</a>'s fullstack engineering program. I'm now more ready than ever to pair my years of
+      experience in logistics along with my new skills as a an engineer in 
       {/* I also have the drive and dedication to build your project to your highest
       expectations. */}
     </p>
