@@ -1,8 +1,14 @@
 .main-body{
-    margin: 2% 20%;
+    margin: 0;
     text-align: left;
     font-weight: 500;
     font-size: 20px;
+    color: rgb(240, 243, 245);
+}
+
+.nested-body{
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 a{
@@ -10,11 +16,11 @@ a{
 }
 
 a:link{
-    color:rgb(62, 79, 94);
+    color:rgb(179, 197, 212);
 }
 
 a:visited{
-    color:rgb(61, 84, 104);
+    color:rgb(136, 166, 192);
 }
 
 a:hover{

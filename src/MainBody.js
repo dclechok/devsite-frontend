@@ -5,8 +5,10 @@ import About from "./About";
 function MainBody() {
   return (
     <main className="main-body">
-      <About />
-      <SkillsList />
+      <section className="nested-body">
+        <About />
+        <SkillsList />
+      </section>
     </main>
   );
 }
