@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
 
 .title-container {
   margin: 0;
@@ -10,6 +11,11 @@
   justify-content: space-around;
   align-items: flex-end;
   color: rgb(240, 243, 245);
+}
+
+.nav-button{
+  padding: 0;
+  margin: 0;
 }
 
 nav {
@@ -25,7 +31,7 @@ h1 {
   margin: 1% 0 0 0;
   font-family: "EB Garamond", serif;
   font-weight: 200;
-  letter-spacing: 6px;
+  letter-spacing: 8px;
   color:rgba(0, 0, 0, 0.521)
 }
 

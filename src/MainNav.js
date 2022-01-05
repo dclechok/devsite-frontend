@@ -1,6 +1,12 @@
 import "./MainNav.css";
 
-function MainNav() {
+function MainNav({ setNav }) {
+  const handleClick = (e) => {
+    e.preventDefault();
+    console.log(e.target.id, 'ehh');
+    setNav(e.target.id); //about, projects, or contact
+  };
+
   return (
     <div>
       <div className="title-container">
@@ -12,7 +18,19 @@ function MainNav() {
         </header>
       </div>
       <hr />
-      <nav className="nav">about | projects | contact  </nav>
+      <nav className="nav">
+        <a href="/" onClick={handleClick} id="about">
+          about
+        </a>
+        |
+        <a href="/" onClick={handleClick} id="projects">
+          projects
+        </a>
+        | 
+        <a href="/" onClick={handleClick} id="contact">
+        contact
+        </a>
+      </nav>
       <br />
       <p className="subtitle-two">Welcome to my development portfolio...</p>
     </div>
