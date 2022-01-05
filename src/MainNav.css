@@ -53,3 +53,7 @@ hr{
   height: 1px;
   background-color: rgb(58, 89, 116);
 }
+
+a{
+  margin: 0 1%;
+}
