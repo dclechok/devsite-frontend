@@ -3,7 +3,7 @@
     text-align: left;
     font-weight: 500;
     font-size: 20px;
-    color: rgb(240, 243, 245);
+    color: rgb(0, 0, 0);
 }
 
 .nested-body{
@@ -24,7 +24,7 @@ a:visited{
 }
 
 a:hover{
-    color: aliceblue;
+    color: rgb(106, 129, 150);
 }
 
 a:active{

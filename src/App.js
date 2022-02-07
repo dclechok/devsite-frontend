@@ -1,5 +1,5 @@
 import "./App.css";
-import MainNav from "./MainNav";
+import Nav from "./Nav";
 import MainBody from "./MainBody";
 import { useState } from 'react';
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <MainNav setNav={setNav} />
+      <Nav setNav={setNav} />
       <MainBody nav={nav} />
     </div>
   );

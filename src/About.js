@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <p>
-      My name is Daniel C. Lechok, and I'm from Pittsburgh, Pennsylvania.
+      {/* My name is Daniel C. Lechok, and I'm from Pittsburgh, Pennsylvania.
       After working in logistics for many years, I decided to finally take the
       leap into full-stack engineering and follow my dream of becoming a
       full-time software developer.
@@ -22,5 +22,5 @@ function About() {
     </p>
   );
 }
-
+ 
 export default About;
