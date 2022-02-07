@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Raleway&display=swap');
 
 html{
-  background-image: url('./images/moraine.jpg');
-  /* background-image: url('./images/field.jpeg'); */
+  /* background-image: url('./images/moraine.jpg'); */
+  background-image: url('./images/field.jpeg');
   height: 100%;
   background-size: cover;
   background-position: center center;
@@ -14,7 +14,5 @@ html{
 
 body {
   margin: 0;
-  font-family: 'Cormorant Garamond', serif;
-  /* background-color:rgba(0, 0, 0, 0.5); */
   height: 100%;
 }
