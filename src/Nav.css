@@ -19,7 +19,6 @@ nav {
 }
 
 .center-flex{
-  /* margin: 0 20%; */
   padding: 0;
 }
 
@@ -27,9 +26,13 @@ h1 {
   font-size: 50px;
   font-family: "Montserrat", serif;
   font-weight: 300;
-  /* letter-spacing: 3px; */
   margin: 0;
   padding: 0;
+}
+
+h3{
+  font-family: "Montserrat", serif;
+  font-size: 12px;
 }
 
 a{
